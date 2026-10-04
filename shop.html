@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shopping | Shri Cuisines & Bakers</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff8fb;
+  color: #333;
+}
+
+header {
+  background: #d63384;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+header p {
+  margin: 8px 0 0;
+}
+
+nav {
+  background: white;
+  padding: 12px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+nav a {
+  color: #d63384;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px 15px;
+}
+
+.category-title {
+  text-align: center;
+  color: #d63384;
+  margin: 35px 0 20px;
+  font-size: 26px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.product:hover {
+  transform: translateY(-4px);
+}
+
+.product img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #f5f5f5;
+}
+
+.product h3 {
+  margin: 13px 0 7px;
+  font-size: 19px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d63384;
+  margin: 8px 0;
+}
+
+.buy-btn {
+  display: inline-block;
+  background: #d63384;
+  color: white;
+  padding: 11px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.buy-btn:hover {
+  background: #b52a70;
+}
+
+.note {
+  text-align: center;
+  margin: 35px auto;
+  padding: 20px;
+  background: #fff0f6;
+  border-radius: 12px;
+  max-width: 800px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Shri Cuisines & Bakers</h1>
+  <p>Freshly Baked With Love ❤️</p>
+</header>
+
+<nav>
+  <a href="main.html">Home</a>
+  <a href="shop.html">Shopping</a>
+  <a href="index.html">About Us</a>
+</nav>
+
+<div class="container" id="cakes">
+
+<!-- STANDARD CAKES -->
+<h2 class="category-title">🎂 Standard Cakes</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="butterscotch.jpg" alt="Butterscotch Cake">
+<h3>Butterscotch Cake</h3>
+<div class="price">₹1300 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Butterscotch%20Cake&body=Product:%20Butterscotch%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="pineapple.jpg" alt="Pineapple Cake">
+<h3>Pineapple Cake</h3>
+<div class="price">₹1300 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Pineapple%20Cake&body=Product:%20Pineapple%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="strawberry.jpg" alt="Strawberry Cake">
+<h3>Strawberry Cake</h3>
+<div class="price">₹1300 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Strawberry%20Cake&body=Product:%20Strawberry%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="vanilla.jpg" alt="Vanilla Cake">
+<h3>Vanilla Cake</h3>
+<div class="price">₹1300 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Vanilla%20Cake&body=Product:%20Vanilla%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="chocolate.jpg" alt="Chocolate Cake">
+<h3>Chocolate Flavour Cake</h3>
+<div class="price">₹1500 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Chocolate%20Cake&body=Product:%20Chocolate%20Flavour%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="truffle.jpg" alt="Chocolate Truffle Cake">
+<h3>Chocolate Truffle Cake</h3>
+<div class="price">₹1800 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Chocolate%20Truffle%20Cake&body=Product:%20Chocolate%20Truffle%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="loaded.jpg" alt="Chocolate Loaded Cake">
+<h3>Chocolate Loaded Cake</h3>
+<div class="price">₹1800 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Chocolate%20Loaded%20Cake&body=Product:%20Chocolate%20Loaded%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="chocochip.jpg" alt="Chocolate Choco Chip Cake">
+<h3>Chocolate with Choco Chip</h3>
+<div class="price">₹1600 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Chocolate%20Choco%20Chip%20Cake&body=Product:%20Chocolate%20with%20Choco%20Chip%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="blueberry.jpg" alt="Blueberry Cake">
+<h3>Blueberry Cake</h3>
+<div class="price">₹1400 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Blueberry%20Cake&body=Product:%20Blueberry%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="rasmalai.jpg" alt="Rasmalai Cake">
+<h3>Rasmalai Cake</h3>
+<div class="price">₹1700 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Rasmalai%20Cake&body=Product:%20Rasmalai%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="gulabjamun.jpg" alt="Gulab Jamun Cake">
+<h3>Gulab Jamun Cake</h3>
+<div class="price">₹1700 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Gulab%20Jamun%20Cake&body=Product:%20Gulab%20Jamun%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="freshfruit.jpg" alt="Fresh Fruit Cake">
+<h3>Fresh Fruit Cake</h3>
+<div class="price">₹1700 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Fresh%20Fruit%20Cake&body=Product:%20Fresh%20Fruit%20Cake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+</div>
+
+
+<!-- BISCOFF -->
+<h2 class="category-title">🍪 Biscoff Cakes</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="vanilla-biscoff.jpg" alt="Vanilla Biscoff Cake">
+<h3>Vanilla with Biscoff</h3>
+<div class="price">₹1700 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Vanilla%20Biscoff%20Cake&body=Product:%20Vanilla%20with%20Biscoff%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="chocolate-biscoff.jpg" alt="Chocolate Biscoff Cake">
+<h3>Chocolate with Biscoff</h3>
+<div class="price">₹1700 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Chocolate%20Biscoff%20Cake&body=Product:%20Chocolate%20with%20Biscoff%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="biscoff-cheesecake.jpg" alt="Biscoff Cheesecake">
+<h3>Biscoff Cheesecake</h3>
+<div class="price">₹1000 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Biscoff%20Cheesecake&body=Product:%20Biscoff%20Cheesecake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+</div>
+
+
+<!-- CHEESECAKES -->
+<h2 class="category-title">🍰 Three Layer Cheesecakes</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="triple-loaded-cheesecake.jpg" alt="Triple Loaded Chocolate Cheesecake">
+<h3>Triple Loaded Chocolate Cheesecake</h3>
+<div class="price">₹1000 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Triple%20Loaded%20Chocolate%20Cheesecake&body=Product:%20Triple%20Loaded%20Chocolate%20Cheesecake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="strawberry-cheesecake.jpg" alt="Strawberry Cheesecake">
+<h3>Strawberry Cheesecake</h3>
+<div class="price">₹1000 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Strawberry%20Cheesecake&body=Product:%20Strawberry%20Cheesecake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="kesar-pista-cheesecake.jpg" alt="Kesar Pista Cheesecake">
+<h3>Kesar Pista Cheesecake</h3>
+<div class="price">₹1000 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Kesar%20Pista%20Cheesecake&body=Product:%20Kesar%20Pista%20Cheesecake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+<div class="product">
+<img src="blueberry-cheesecake.jpg" alt="Blueberry Cheesecake">
+<h3>Blueberry Cheesecake</h3>
+<div class="price">₹1000 / ½ kg</div>
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Order%20-%20Blueberry%20Cheesecake&body=Product:%20Blueberry%20Cheesecake%0AQuantity:%0AWeight:%0ARequired%20Date:%0AContact%20Number:%0AAddress:">
+Buy Now
+</a>
+</div>
+
+</div>
+
+
+<!-- CUSTOMIZED -->
+<h2 class="category-title">✨ Customized Cakes</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="customized-cake.jpg" alt="Customized Cake">
+<h3>Customized Cake</h3>
+<p>All types of customized cakes available.</p>
+
+<a class="buy-btn" href="mailto:reenasri20000@gmail.com?subject=Customized%20Cake%20Order&body=Hello%20Shri%20Cuisines%20%26%20Bakers%2C%0A%0ACake%20Design%3A%0AFlavor%3A%0AWeight%3A%0AQuantity%3A%0ARequired%20Date%3A%0ADelivery%20Time%3A%0ABudget%3A%0AContact%20Number%3A%0AAddress%3A%0AAdditional%20Requirements%3A">
+Buy Now
+</a>
+
+</div>
+
+</div>
+
+<div class="note">
+<strong>Order Information</strong><br><br>
+For freshly baked products, please place your order at least
+<strong>5 hours in advance.</strong><br>
+Customized cakes should be booked at least
+<strong>2 days in advance.</strong>
+</div>
+
+</div>
+
+<footer>
+© 2026 Shri Cuisines & Bakers | Freshly Baked With Love ❤️
+</footer>
+
+</body>
+</html>
