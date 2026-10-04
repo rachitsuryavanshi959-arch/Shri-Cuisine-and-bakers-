@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shri Cuisines & Bakers</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fffaf7;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #5a2633;
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ffd6a5;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8eee9;
+}
+
+.hero h1 {
+    color: #5a2633;
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 17px;
+}
+
+/* PRODUCTS */
+.products-section {
+    padding: 45px 5%;
+}
+
+.products-section h2 {
+    text-align: center;
+    color: #5a2633;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+/* SLIDER */
+.product-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+
+.product-slider::-webkit-scrollbar {
+    height: 7px;
+}
+
+.product-slider::-webkit-scrollbar-thumb {
+    background: #5a2633;
+    border-radius: 10px;
+}
+
+/* PRODUCT CARD */
+.product {
+    min-width: 250px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    flex-shrink: 0;
+}
+
+.product img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 18px;
+    text-align: center;
+}
+
+.product-info h3 {
+    color: #5a2633;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    display: inline-block;
+    background: #5a2633;
+    color: white;
+    padding: 11px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.buy-btn:hover {
+    background: #7b3547;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    padding: 50px 10%;
+    background: #f8eee9;
+}
+
+.about h2 {
+    color: #5a2633;
+    margin-bottom: 15px;
+}
+
+.about p {
+    line-height: 1.7;
+}
+
+/* FOOTER */
+footer {
+    background: #5a2633;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* MOBILE */
+@media(max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .product {
+        min-width: 230px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+
+    <div class="logo">
+        Shri Cuisines & Bakers
+    </div>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="shop.html">Shopping</a>
+        <a href="index.html">About Us</a>
+    </nav>
+
+</header>
+
+
+<!-- HOME -->
+<section class="hero">
+
+    <h1>Welcome to Shri Cuisines & Bakers</h1>
+
+    <p>
+        Freshly Baked • Delicious • Customized With Love ❤️
+    </p>
+
+</section>
+
+
+<!-- OUR PRODUCTS -->
+<section class="products-section">
+
+    <h2>Our Products</h2>
+
+    <div class="product-slider">
+
+        <!-- PRODUCT 1 -->
+        <div class="product">
+
+            <img src="chocolatetrufflecake.jpg"
+                 alt="Chocolate Truffle Cake">
+
+            <div class="product-info">
+
+                <h3>Chocolate Truffle Cake</h3>
+
+                <p>Rich & delicious chocolate cake</p>
+
+                <div class="price ½kg">₹900</div>
+
+                <a href="buy.html" class="buy-btn">
+                    Buy Now
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+        <div class="product">
+
+            <img src="triplecheesecake.jpg"
+                 alt="Triple Loaded Cheesecake">
+
+            <div class="product-info">
+
+                <h3>Triple Loaded Cheesecake</h3>
+
+                <p>Premium three-layer cheesecake</p>
+
+                <div class="price">₹1000 / ½ kg</div>
+
+                <a href="buy.html" class="buy-btn">
+                    Buy Now
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+        <div class="product">
+
+            <img src="dragon.jpg"
+                 alt="Customized Cake">
+
+            <div class="product-info">
+
+                <h3>Customized Cake</h3>
+
+                <p>Made specially for your occasion</p>
+
+                <div class="price">Get Price</div>
+
+                <a href="buy.html" class="buy-btn">
+                    Buy Now
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+        <div class="product">
+
+            <img src="biscof.jpg"
+                 alt="Biscoff Cake">
+
+            <div class="product-info">
+
+                <h3>Biscoff Cake</h3>
+
+                <p>Delicious Biscoff flavour</p>
+
+                <div class="price">₹850 </div>
+
+                <a href="buy.html" class="buy-btn">
+                    Buy Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about">
+
+    <h2>About Us</h2>
+
+    <p>
+        Shri Cuisines & Bakers is a home bakery offering
+        freshly baked cakes, cheesecakes and customized
+        creations made with love and attention to quality.
+    </p>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <p> Since 2024 <br> Shri Cuisines & Bakers</p>
+
+</footer>
+
+</body>
+</html>
